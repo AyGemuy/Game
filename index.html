@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>List Game</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     
+<meta name="author" content="Author : Wudysoft" />
+<meta name="robots" content="index, follow">
+<meta name="description" content="Selamat Bermain - [ Wudysoft ] - 😉." />
+<meta name="keywords" content="Free Games" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://i.ibb.co/NSc1mCP/ezgif-com-gif-maker-3.jpg" />
+
+<link rel="shortcut icon" href="https://i.ibb.co/NSc1mCP/ezgif-com-gif-maker-3.jpg">
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background : beige ;
+  margin : 0 ;
+  padding : 0 ;
+  transition: all .3s;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background:rgba(255, 99, 71, .3);
+  border-radius:2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(255, 99, 71, .9);
+  border-radius:2px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display :flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+}
+
+.card{
+  margin : auto;
+  width: 350px;
+  overflow : hidden;
+  border-radius : 20px;
+  background : white;
+  margin-top:50px;
+  transition: all .2s;
+  box-shadow:5px 5px 15px rgba(0,0,0, .3);
+}
+
+.card:hover {
+  box-shadow:5px 5px 25px rgba(0,0,0, .5);
+  transform: translate(-5px, -5px);
+}
+
+.card:hover .icon svg{
+  animation : iconjln 1s;
+}
+
+.img-cover{
+  position: relative;
+}
+
+.card img{
+  width: 350px;
+  height:350px;
+  object-fit:cover;
+}
+
+.icon{
+  position:absolute;
+  top:0;
+  padding : 25px;
+  right:0;
+  border-bottom-left-radius:20px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.desc{
+  padding : 1.5em ;
+  font-family: 'Poppins', sans-serif;
+}
+.desc h1{
+  display:inline;
+}
+.tdesc{
+  margin-bottom:40px;
+  width:100%;
+  height:50px;
+  overflow: auto;
+}
+
+.desc a{
+  text-decoration: none;
+  background-color: dodgerblue;
+  padding: 15px 25px;
+  color:white;
+  border-radius: 15px;
+  display:block;
+  text-align: center;
+  transition: all .2s;
+}
+.desc a:hover{
+  background-color: SteelBlue;
+}
+.desc a:hover svg{
+  animation : iconjln 1s;
+}
+
+@keyframes iconjln{
+  0%, 100% {
+    opacity : 1;
+    transform: translateX(0%);
+  }
+  50%{
+    opacity:0;
+    transform: translateX(100%);
+  }
+  70%{
+    opacity:0;
+    transform:translateX(-100%);
+  }
+}
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+ 
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="3D-Hartwig-chess-set-master/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="Game-Snapshoter/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="an-exciting-html-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="bad-ai-billiard-battle/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="chess/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="christmas-cannon/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="clone-of-flappy-bird/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="coloron-game-inspiring-developers-to-use-svg-animations-es6-and-flexbox/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="coronavirus-shooting-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="css-3d-hartwig-chess-set-fully-playable/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="drag-and-drop-pixel-garden/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="drum-sequencer-w-sample-pad/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="game-of-thrones-deadpoolvue-js/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="gnat-attack/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="goku-vs-moro-game-save-the-universe/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="help-santa-christmas-html-css-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="html5-canvas-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="kill-the-kingvue-html-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="macron-punch-game-css-html/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="menja/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="minesweeper/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="mk.js-master/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="nojs-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="pinball-physics/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="rain-game-opposites-challenge/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="rand-o-lantern/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="reaction-fast-paced-js-reaction-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="shooting-hoops/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="snake-css3-3d-div-game-css/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="snake-game-main/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="super-mario-bros/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="the-caretakera-pure-css-horror-puzzle-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="the-fearsome-three-a-codepen-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="the-frantic-run-of-the-valorous-rabbit/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="the-mine-no-js-css-only-adventure-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="tic-tac-toe-dragons-vs-unicorns/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="tic-tac-toe/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="tower-blocks/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="zombie-mayhemhtml5-js-and-scss-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+    <div class="card">
+    <div class="img-cover"><img src="https://images.unsplash.com/photo-1475694867812-f82b8696d610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"><div class="icon"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3"/>
+</svg>
+</div></div>
+    <div class="desc">
+      <h1>Games</h1>
+      <p>Game yang menggunakan bahasa pemrograman HTML</p>
+      <a href="zombie-shooter-game/dist/index.html">Mainkan <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3"/>
+</svg></a>
+    </div>
+  </div>
+  
+  
+</div>
+<!-- partial -->
+  <script>
+  const clickC = document.querySelector(".desc");
+
+clickC.addEventListener ("click", function (){
+  const r = Math.round(Math.random() * 255 + 0);
+  const g = Math.round(Math.random() * 255 + 0);
+  const b = Math.round(Math.random() * 255 + 0);
+  
+  document.body.style.backgroundColor = 'rgb('+ r +','+ g +','+ b +')';
+});
+  </script>
+
+</body>
+</html>
