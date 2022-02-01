@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Palanquin", sans-serif;
-  background: white;
+  background: black;
   min-height: 100vh;
 }
 
@@ -50,7 +50,7 @@ button {
   background: black;
   color: #fff;
   border: 0;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
   transition: all 0.1s ease-in;
   display: inline-flex;
   justify-content: center;
@@ -111,7 +111,7 @@ svg {
   font-weight: 500;
   width: 100%;
   border: 1px solid #dfe8ed;
-  border-radius: 0 0 5px 5px;
+  border-radius: 50px;
   line-height: 1.2;
   background: #ffffff;
   color: #141a31;
@@ -153,8 +153,8 @@ svg {
 }
 
 .eachCard {
-  background: black;
-  border-radius: 0 0 5px 5px;
+  background: #fff;
+  border-radius: 10px;
   min-height: 220px;
   max-width: 350px;
   position: relative;
@@ -204,7 +204,7 @@ svg {
 }
 
 .eachCard:hover .userActions {
-  background: black;
+  background: #f1f1f1;
   padding: 10px;
   border-radius: 0 0 5px 5px;
   text-align: center;
@@ -230,7 +230,7 @@ footer {
   height: 60px;
   line-height: 60px;
   font-size: 14px;
-  background-color: black;
+  background-color: #f1f1f1;
   color: #000000;
   text-align: center;
 }
