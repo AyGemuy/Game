@@ -1,364 +1,363 @@
 const data = [
 
-{
+    {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
-  apiLink: "3D-Hartwig-chess-set-master/dist/index.html" },
+  "3D-Hartwig-chess-set-master",
+  apiLink: "3D-Hartwig-chess-set-master/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
-  apiLink: "Game-Snapshoter/dist/index.html" },
-
-  
-    {
-  logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
-  subTitle: "Copyright 2022.",
-  descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "an-exciting-html-game",
   apiLink: "an-exciting-html-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "bad-ai-billiard-battle",
   apiLink: "bad-ai-billiard-battle/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "chess",
   apiLink: "chess/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "christmas-cannon",
   apiLink: "christmas-cannon/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "clone-of-flappy-bird",
   apiLink: "clone-of-flappy-bird/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "coloron-game-inspiring-developers-to-use-svg-animations-es6-and-flexbox",
   apiLink: "coloron-game-inspiring-developers-to-use-svg-animations-es6-and-flexbox/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "coronavirus-shooting-game",
   apiLink: "coronavirus-shooting-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "css-3d-hartwig-chess-set-fully-playable",
   apiLink: "css-3d-hartwig-chess-set-fully-playable/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "drag-and-drop-pixel-garden",
   apiLink: "drag-and-drop-pixel-garden/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "drum-sequencer-w-sample-pad",
   apiLink: "drum-sequencer-w-sample-pad/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "game-of-thrones-deadpoolvue-js",
   apiLink: "game-of-thrones-deadpoolvue-js/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "Game-Snapshoter",
+  apiLink: "Game-Snapshoter/index.html" },
+
+  
+    {
+  logo: "https://imgpile.com/images/uBmLxP.png",
+  title: "Wudy game",
+  subTitle: "Copyright 2022.",
+  descprition:
+  "gnat-attack",
   apiLink: "gnat-attack/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "goku-vs-moro-game-save-the-universe",
   apiLink: "goku-vs-moro-game-save-the-universe/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "help-santa-christmas-html-css-game",
   apiLink: "help-santa-christmas-html-css-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "html5-canvas-game",
   apiLink: "html5-canvas-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "kill-the-kingvue-html-game",
   apiLink: "kill-the-kingvue-html-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "macron-punch-game-css-html",
   apiLink: "macron-punch-game-css-html/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "menja",
   apiLink: "menja/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "minesweeper",
   apiLink: "minesweeper/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
-  apiLink: "mk.js-master/dist/index.html" },
+  "mk.js-master",
+  apiLink: "mk.js-master/game/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "nojs-game",
   apiLink: "nojs-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "pinball-physics",
   apiLink: "pinball-physics/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "rain-game-opposites-challenge",
   apiLink: "rain-game-opposites-challenge/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "rand-o-lantern",
   apiLink: "rand-o-lantern/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "reaction-fast-paced-js-reaction-game",
   apiLink: "reaction-fast-paced-js-reaction-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "shooting-hoops",
   apiLink: "shooting-hoops/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "snake-css3-3d-div-game-css",
   apiLink: "snake-css3-3d-div-game-css/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
-  apiLink: "snake-game-main/dist/index.html" },
+  "snake-game-main",
+  apiLink: "snake-game-main/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "super-mario-bros",
   apiLink: "super-mario-bros/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "the-caretakera-pure-css-horror-puzzle-game",
   apiLink: "the-caretakera-pure-css-horror-puzzle-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "the-fearsome-three-a-codepen-game",
   apiLink: "the-fearsome-three-a-codepen-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "the-frantic-run-of-the-valorous-rabbit",
   apiLink: "the-frantic-run-of-the-valorous-rabbit/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "the-mine-no-js-css-only-adventure-game",
   apiLink: "the-mine-no-js-css-only-adventure-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
-  apiLink: "tic-tac-toe-dragons-vs-unicorns/dist/index.html" },
-
-  
-    {
-  logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
-  subTitle: "Copyright 2022.",
-  descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "tic-tac-toe",
   apiLink: "tic-tac-toe/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "tic-tac-toe-dragons-vs-unicorns",
+  apiLink: "tic-tac-toe-dragons-vs-unicorns/dist/index.html" },
+
+  
+    {
+  logo: "https://imgpile.com/images/uBmLxP.png",
+  title: "Wudy game",
+  subTitle: "Copyright 2022.",
+  descprition:
+  "tower-blocks",
   apiLink: "tower-blocks/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "zombie-mayhemhtml5-js-and-scss-game",
   apiLink: "zombie-mayhemhtml5-js-and-scss-game/dist/index.html" },
 
   
     {
   logo: "https://imgpile.com/images/uBmLxP.png",
-  title: "Games",
+  title: "Wudy game",
   subTitle: "Copyright 2022.",
   descprition:
-  "Pilih dan mainkan yang anda suka dan sesuai selera.",
+  "zombie-shooter-game",
   apiLink: "zombie-shooter-game/dist/index.html" }
-
   
   
   ];
