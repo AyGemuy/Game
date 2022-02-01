@@ -12,6 +12,7 @@ html {
 body {
   font-family: "Palanquin", sans-serif;
   background: #edecf6;
+  background-image: url('https://i.ibb.co/jTvPzG2/images-14.jpg');
   min-height: 100vh;
 }
 
@@ -47,7 +48,7 @@ button {
   padding: 10px;
   margin: 10px;
   cursor: pointer;
-  background: #141a31;
+  background: black;
   color: #fff;
   border: 0;
   border-radius: 5px;
@@ -60,7 +61,7 @@ button {
 }
 
 button:hover {
-  background: #5c00ff;
+  background: white;
 }
 
 button:focus {
