@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: "Palanquin", sans-serif;
-  background: #edecf6;
   background-image: url('https://i.ibb.co/jTvPzG2/images-14.jpg');
   min-height: 100vh;
 }
@@ -51,7 +50,7 @@ button {
   background: black;
   color: #fff;
   border: 0;
-  border-radius: 5px;
+  border-radius: 50%;
   transition: all 0.1s ease-in;
   display: inline-flex;
   justify-content: center;
@@ -61,7 +60,7 @@ button {
 }
 
 button:hover {
-  background: white;
+  background: red;
 }
 
 button:focus {
@@ -112,7 +111,7 @@ svg {
   font-weight: 500;
   width: 100%;
   border: 1px solid #dfe8ed;
-  border-radius: 50px;
+  border-radius: 50%;
   line-height: 1.2;
   background: #ffffff;
   color: #141a31;
@@ -155,7 +154,7 @@ svg {
 
 .eachCard {
   background: #fff;
-  border-radius: 10px;
+  border-radius: 50%;
   min-height: 220px;
   max-width: 350px;
   position: relative;
