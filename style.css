@@ -206,3 +206,7 @@ html {
   background-color: #ff2111;
   box-shadow: 0 0 6px rgba(0,0,0,.16), 0 6px 12px rgba(0,0,0,.32);
 }
+img {
+width: 24px;
+height: 24px;
+}
